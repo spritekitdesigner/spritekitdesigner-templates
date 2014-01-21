@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B363D051188E5FC900541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D050188E5FC900541108 /* skdActions.inc */; };
+		B363D052188E5FC900541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D050188E5FC900541108 /* skdActions.inc */; };
+		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
+		B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */; };
+		B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */; };
+		B37643CA1870773400E2E9C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643C71870773400E2E9C1 /* Default-568h@2x.png */; };
+		B38B5CEB18718ED500D7CF3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B38B5CE718718ED500D7CF3C /* Default.png */; };
+		B38B5CEC18718ED500D7CF3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38B5CE818718ED500D7CF3C /* Default@2x.png */; };
+		B39D871E186F02C3000F3046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D871D186F02C3000F3046 /* Foundation.framework */; };
+		B39D8720186F02C3000F3046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D871F186F02C3000F3046 /* CoreGraphics.framework */; };
+		B39D8722186F02C3000F3046 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D8721186F02C3000F3046 /* UIKit.framework */; };
+		B39D8724186F02C3000F3046 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D8723186F02C3000F3046 /* SpriteKit.framework */; };
+		B39D872A186F02C3000F3046 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B39D8728186F02C3000F3046 /* InfoPlist.strings */; };
+		B39D872C186F02C3000F3046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D872B186F02C3000F3046 /* main.m */; };
+		B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D872F186F02C3000F3046 /* skdAppDelegate.m */; };
+		B39D8739186F02C3000F3046 /* skdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D8738186F02C3000F3046 /* skdViewController.m */; };
+		B39D8740186F02C3000F3046 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39D873F186F02C3000F3046 /* Images.xcassets */; };
+		B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D875D186F03FC000F3046 /* skdNodeLibrary.m */; };
+		B3DDDFC4187983F200A8BFBC /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DDDFC3187983F200A8BFBC /* skdParallaxNode.m */; };
+		B3DDDFC5187983F200A8BFBC /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DDDFC3187983F200A8BFBC /* skdParallaxNode.m */; };
+		B3F131071871A5C20026684A /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F131061871A5C20026684A /* iPadStoryboard.storyboard */; };
+		B3F1310E1871A9FF0026684A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F1310D1871A9FF0026684A /* Cocoa.framework */; };
+		B3F131191871A9FF0026684A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3F131171871A9FF0026684A /* InfoPlist.strings */; };
+		B3F1311B1871A9FF0026684A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F1311A1871A9FF0026684A /* main.m */; };
+		B3F1311F1871A9FF0026684A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3F1311D1871A9FF0026684A /* Credits.rtf */; };
+		B3F131211871A9FF0026684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F131201871A9FF0026684A /* MainMenu.xib */; };
+		B3F131261871A9FF0026684A /* skdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F131251871A9FF0026684A /* skdAppDelegate.m */; };
+		B3F1312B1871A9FF0026684A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F1312A1871A9FF0026684A /* Images.xcassets */; };
+		B3F131471871AB190026684A /* skdNodeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D875D186F03FC000F3046 /* skdNodeLibrary.m */; };
+		B3F132041872E3290026684A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F132031872E3290026684A /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B30114A01876D3AD005DAD57 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = GeneratedAssets/Textures; sourceTree = "<group>"; };
+		B363D050188E5FC900541108 /* skdActions.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdActions.inc; path = GeneratedFiles/skdActions.inc; sourceTree = "<group>"; };
+		B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		B37643C71870773400E2E9C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3816F511876E8D70063FAD8 /* skdScenes.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdScenes.inc; path = GeneratedFiles/skdScenes.inc; sourceTree = "<group>"; };
+		B3816F521876E9A00063FAD8 /* skdGameObjects.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdGameObjects.inc; path = GeneratedFiles/skdGameObjects.inc; sourceTree = "<group>"; };
+		B38B5CE718718ED500D7CF3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B38B5CE818718ED500D7CF3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B39D871A186F02C3000F3046 /* SKD-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKD-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39D871D186F02C3000F3046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B39D871F186F02C3000F3046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B39D8721186F02C3000F3046 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B39D8723186F02C3000F3046 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B39D8727186F02C3000F3046 /* SKD-IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKD-IOS-Info.plist"; sourceTree = "<group>"; };
+		B39D8729186F02C3000F3046 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B39D872B186F02C3000F3046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B39D872D186F02C3000F3046 /* SKD-IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKD-IOS-Prefix.pch"; sourceTree = "<group>"; };
+		B39D872E186F02C3000F3046 /* skdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skdAppDelegate.h; sourceTree = "<group>"; };
+		B39D872F186F02C3000F3046 /* skdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skdAppDelegate.m; sourceTree = "<group>"; };
+		B39D8737186F02C3000F3046 /* skdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skdViewController.h; sourceTree = "<group>"; };
+		B39D8738186F02C3000F3046 /* skdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skdViewController.m; sourceTree = "<group>"; };
+		B39D873F186F02C3000F3046 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B39D8746186F02C3000F3046 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B39D875C186F03FC000F3046 /* skdNodeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdNodeLibrary.h; path = GeneratedFiles/skdNodeLibrary.h; sourceTree = "<group>"; };
+		B39D875D186F03FC000F3046 /* skdNodeLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdNodeLibrary.m; path = GeneratedFiles/skdNodeLibrary.m; sourceTree = "<group>"; };
+		B3D74C341874528C001CC2C1 /* skdNodeLibraryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdNodeLibraryDelegate.h; path = SKDCommon/skdNodeLibraryDelegate.h; sourceTree = "<group>"; };
+		B3DDDFC2187983F200A8BFBC /* skdParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdParallaxNode.h; path = SKDCommon/skdParallaxNode.h; sourceTree = "<group>"; };
+		B3DDDFC3187983F200A8BFBC /* skdParallaxNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdParallaxNode.m; path = SKDCommon/skdParallaxNode.m; sourceTree = "<group>"; };
+		B3DDDFC61879843200A8BFBC /* skdNodeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdNodeDelegate.h; path = SKDCommon/skdNodeDelegate.h; sourceTree = "<group>"; };
+		B3DDDFC71879A87000A8BFBC /* Atlases */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Atlases; path = GeneratedAssets/Atlases; sourceTree = "<group>"; };
+		B3DDDFD3187B20E800A8BFBC /* AtlasesOSX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AtlasesOSX; path = GeneratedAssets/AtlasesOSX; sourceTree = "<group>"; };
+		B3DDDFD4187B20E800A8BFBC /* TexturesOSX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TexturesOSX; path = GeneratedAssets/TexturesOSX; sourceTree = "<group>"; };
+		B3DDDFD5187B216400A8BFBC /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = GeneratedAssets/Resources; sourceTree = "<group>"; };
+		B3DDDFD6187B216400A8BFBC /* ResourcesOSX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ResourcesOSX; path = GeneratedAssets/ResourcesOSX; sourceTree = "<group>"; };
+		B3F131061871A5C20026684A /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPadStoryboard.storyboard; sourceTree = "<group>"; };
+		B3F1310C1871A9FF0026684A /* SKD-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKD-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F1310D1871A9FF0026684A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B3F131111871A9FF0026684A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B3F131121871A9FF0026684A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3F131131871A9FF0026684A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3F131161871A9FF0026684A /* SKD-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKD-OSX-Info.plist"; sourceTree = "<group>"; };
+		B3F131181871A9FF0026684A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3F1311A1871A9FF0026684A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F1311C1871A9FF0026684A /* SKD-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKD-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		B3F1311E1871A9FF0026684A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B3F131201871A9FF0026684A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		B3F131251871A9FF0026684A /* skdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skdAppDelegate.m; sourceTree = "<group>"; };
+		B3F131271871A9FF0026684A /* skdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skdAppDelegate.h; sourceTree = "<group>"; };
+		B3F1312A1871A9FF0026684A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3F132031872E3290026684A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39D8717186F02C3000F3046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39D8720186F02C3000F3046 /* CoreGraphics.framework in Frameworks */,
+				B39D8722186F02C3000F3046 /* UIKit.framework in Frameworks */,
+				B39D8724186F02C3000F3046 /* SpriteKit.framework in Frameworks */,
+				B39D871E186F02C3000F3046 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F131091871A9FF0026684A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F132041872E3290026684A /* SpriteKit.framework in Frameworks */,
+				B3F1310E1871A9FF0026684A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39D8711186F02C3000F3046 = {
+			isa = PBXGroup;
+			children = (
+				B3F131F41872E2100026684A /* Assets */,
+				B3F131431871AAA40026684A /* SKDCommon */,
+				B39D875F186F0402000F3046 /* SKD Generated */,
+				B39D8725186F02C3000F3046 /* SKD-IOS */,
+				B3F131141871A9FF0026684A /* SKD-OSX */,
+				B39D871C186F02C3000F3046 /* Frameworks */,
+				B39D871B186F02C3000F3046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B39D871B186F02C3000F3046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39D871A186F02C3000F3046 /* SKD-IOS.app */,
+				B3F1310C1871A9FF0026684A /* SKD-OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39D871C186F02C3000F3046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F132031872E3290026684A /* SpriteKit.framework */,
+				B39D871D186F02C3000F3046 /* Foundation.framework */,
+				B39D871F186F02C3000F3046 /* CoreGraphics.framework */,
+				B39D8721186F02C3000F3046 /* UIKit.framework */,
+				B39D8723186F02C3000F3046 /* SpriteKit.framework */,
+				B39D8746186F02C3000F3046 /* XCTest.framework */,
+				B3F1310D1871A9FF0026684A /* Cocoa.framework */,
+				B3F131101871A9FF0026684A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B39D8725186F02C3000F3046 /* SKD-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */,
+				B3F131061871A5C20026684A /* iPadStoryboard.storyboard */,
+				B39D872E186F02C3000F3046 /* skdAppDelegate.h */,
+				B39D872F186F02C3000F3046 /* skdAppDelegate.m */,
+				B39D8737186F02C3000F3046 /* skdViewController.h */,
+				B39D8738186F02C3000F3046 /* skdViewController.m */,
+				B39D873F186F02C3000F3046 /* Images.xcassets */,
+				B39D8726186F02C3000F3046 /* Supporting Files */,
+			);
+			path = "SKD-IOS";
+			sourceTree = "<group>";
+		};
+		B39D8726186F02C3000F3046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38B5CE718718ED500D7CF3C /* Default.png */,
+				B38B5CE818718ED500D7CF3C /* Default@2x.png */,
+				B37643C71870773400E2E9C1 /* Default-568h@2x.png */,
+				B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */,
+				B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */,
+				B39D8727186F02C3000F3046 /* SKD-IOS-Info.plist */,
+				B39D8728186F02C3000F3046 /* InfoPlist.strings */,
+				B39D872B186F02C3000F3046 /* main.m */,
+				B39D872D186F02C3000F3046 /* SKD-IOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B39D875F186F0402000F3046 /* SKD Generated */ = {
+			isa = PBXGroup;
+			children = (
+				B363D050188E5FC900541108 /* skdActions.inc */,
+				B39D875C186F03FC000F3046 /* skdNodeLibrary.h */,
+				B39D875D186F03FC000F3046 /* skdNodeLibrary.m */,
+				B3816F511876E8D70063FAD8 /* skdScenes.inc */,
+				B3816F521876E9A00063FAD8 /* skdGameObjects.inc */,
+			);
+			name = "SKD Generated";
+			sourceTree = "<group>";
+		};
+		B3F131101871A9FF0026684A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F131111871A9FF0026684A /* AppKit.framework */,
+				B3F131121871A9FF0026684A /* CoreData.framework */,
+				B3F131131871A9FF0026684A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B3F131141871A9FF0026684A /* SKD-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				B3F131201871A9FF0026684A /* MainMenu.xib */,
+				B3F131271871A9FF0026684A /* skdAppDelegate.h */,
+				B3F131251871A9FF0026684A /* skdAppDelegate.m */,
+				B3F1312A1871A9FF0026684A /* Images.xcassets */,
+				B3F131151871A9FF0026684A /* Supporting Files */,
+			);
+			path = "SKD-OSX";
+			sourceTree = "<group>";
+		};
+		B3F131151871A9FF0026684A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F131161871A9FF0026684A /* SKD-OSX-Info.plist */,
+				B3F131171871A9FF0026684A /* InfoPlist.strings */,
+				B3F1311A1871A9FF0026684A /* main.m */,
+				B3F1311C1871A9FF0026684A /* SKD-OSX-Prefix.pch */,
+				B3F1311D1871A9FF0026684A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3F131431871AAA40026684A /* SKDCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B3DDDFC61879843200A8BFBC /* skdNodeDelegate.h */,
+				B3D74C341874528C001CC2C1 /* skdNodeLibraryDelegate.h */,
+				B3DDDFC2187983F200A8BFBC /* skdParallaxNode.h */,
+				B3DDDFC3187983F200A8BFBC /* skdParallaxNode.m */,
+			);
+			name = SKDCommon;
+			sourceTree = "<group>";
+		};
+		B3F131F41872E2100026684A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3DDDFD5187B216400A8BFBC /* Resources */,
+				B3DDDFD6187B216400A8BFBC /* ResourcesOSX */,
+				B3DDDFC71879A87000A8BFBC /* Atlases */,
+				B3DDDFD3187B20E800A8BFBC /* AtlasesOSX */,
+				B30114A01876D3AD005DAD57 /* Textures */,
+				B3DDDFD4187B20E800A8BFBC /* TexturesOSX */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39D8719186F02C3000F3046 /* SKD-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39D8756186F02C3000F3046 /* Build configuration list for PBXNativeTarget "SKD-IOS" */;
+			buildPhases = (
+				B39D8716186F02C3000F3046 /* Sources */,
+				B39D8717186F02C3000F3046 /* Frameworks */,
+				B39D8718186F02C3000F3046 /* Resources */,
+				B30114A41876D8B4005DAD57 /* ShellScript */,
+				B3DDDFCB1879AA5300A8BFBC /* ShellScript */,
+				B3DDDFD9187B21D200A8BFBC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKD-IOS";
+			productName = "SKD-IOS";
+			productReference = B39D871A186F02C3000F3046 /* SKD-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3F1310B1871A9FF0026684A /* SKD-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F131411871AA000026684A /* Build configuration list for PBXNativeTarget "SKD-OSX" */;
+			buildPhases = (
+				B3F131081871A9FF0026684A /* Sources */,
+				B3F131091871A9FF0026684A /* Frameworks */,
+				B3F1310A1871A9FF0026684A /* Resources */,
+				B30114A31876D854005DAD57 /* ShellScript */,
+				B3DDDFCC1879AB9E00A8BFBC /* ShellScript */,
+				B3DDDFD8187B21AF00A8BFBC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKD-OSX";
+			productName = "SKD-OSX";
+			productReference = B3F1310C1871A9FF0026684A /* SKD-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39D8712186F02C3000F3046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = skd;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Developer;
+			};
+			buildConfigurationList = B39D8715186F02C3000F3046 /* Build configuration list for PBXProject "SKDSeparatedWithOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B39D8711186F02C3000F3046;
+			productRefGroup = B39D871B186F02C3000F3046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39D8719186F02C3000F3046 /* SKD-IOS */,
+				B3F1310B1871A9FF0026684A /* SKD-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39D8718186F02C3000F3046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37643CA1870773400E2E9C1 /* Default-568h@2x.png in Resources */,
+				B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */,
+				B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */,
+				B38B5CEB18718ED500D7CF3C /* Default.png in Resources */,
+				B39D8740186F02C3000F3046 /* Images.xcassets in Resources */,
+				B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */,
+				B38B5CEC18718ED500D7CF3C /* Default@2x.png in Resources */,
+				B39D872A186F02C3000F3046 /* InfoPlist.strings in Resources */,
+				B3F131071871A5C20026684A /* iPadStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F1310A1871A9FF0026684A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F1312B1871A9FF0026684A /* Images.xcassets in Resources */,
+				B3F131191871A9FF0026684A /* InfoPlist.strings in Resources */,
+				B3F1311F1871A9FF0026684A /* Credits.rtf in Resources */,
+				B3F131211871A9FF0026684A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B30114A31876D854005DAD57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/TexturesOSX\" \\\n-type f -not -name \".*\" \\\n-not -name \"`basename ${INFOPLIST_FILE}`\" \\\n| xargs -t -I {} \\\ncp {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B30114A41876D8B4005DAD57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/Textures\" \\\n-type f -not -name \".*\" \\\n-not -name \"`basename ${INFOPLIST_FILE}`\" \\\n| xargs -t -I {} \\\ncp {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B3DDDFCB1879AA5300A8BFBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/Atlases\" -type d -name \"*.atlas\" \\\n| xargs -t -I {} \\\n${DEVELOPER_TOOLS_DIR}/../usr/bin/TextureAtlas {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B3DDDFCC1879AB9E00A8BFBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/AtlasesOSX\" -type d -name \"*.atlas\" \\\n| xargs -t -I {} \\\n${DEVELOPER_TOOLS_DIR}/../usr/bin/TextureAtlas {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B3DDDFD8187B21AF00A8BFBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/ResourcesOSX\" \\\n-type f -not -name \".*\" \\\n-not -name \"`basename ${INFOPLIST_FILE}`\" \\\n| xargs -t -I {} \\\ncp {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B3DDDFD9187B21D200A8BFBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/Resources\" \\\n-type f -not -name \".*\" \\\n-not -name \"`basename ${INFOPLIST_FILE}`\" \\\n| xargs -t -I {} \\\ncp {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39D8716186F02C3000F3046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DDDFC4187983F200A8BFBC /* skdParallaxNode.m in Sources */,
+				B39D872C186F02C3000F3046 /* main.m in Sources */,
+				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
+				B363D051188E5FC900541108 /* skdActions.inc in Sources */,
+				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,
+				B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F131081871A9FF0026684A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F131471871AB190026684A /* skdNodeLibrary.m in Sources */,
+				B3DDDFC5187983F200A8BFBC /* skdParallaxNode.m in Sources */,
+				B363D052188E5FC900541108 /* skdActions.inc in Sources */,
+				B3F131261871A9FF0026684A /* skdAppDelegate.m in Sources */,
+				B3F1311B1871A9FF0026684A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39D8728186F02C3000F3046 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39D8729186F02C3000F3046 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3F131171871A9FF0026684A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F131181871A9FF0026684A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3F1311D1871A9FF0026684A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F1311E1871A9FF0026684A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39D8754186F02C3000F3046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B39D8755186F02C3000F3046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B39D8757186F02C3000F3046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKD-IOS/SKD-IOS-Prefix.pch";
+				INFOPLIST_FILE = "SKD-IOS/SKD-IOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B39D8758186F02C3000F3046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKD-IOS/SKD-IOS-Prefix.pch";
+				INFOPLIST_FILE = "SKD-IOS/SKD-IOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3F1313D1871AA000026684A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKD-OSX/SKD-OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SKD-OSX/SKD-OSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3F1313E1871AA000026684A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKD-OSX/SKD-OSX-Prefix.pch";
+				INFOPLIST_FILE = "SKD-OSX/SKD-OSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39D8715186F02C3000F3046 /* Build configuration list for PBXProject "SKDSeparatedWithOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39D8754186F02C3000F3046 /* Debug */,
+				B39D8755186F02C3000F3046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39D8756186F02C3000F3046 /* Build configuration list for PBXNativeTarget "SKD-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39D8757186F02C3000F3046 /* Debug */,
+				B39D8758186F02C3000F3046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F131411871AA000026684A /* Build configuration list for PBXNativeTarget "SKD-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F1313D1871AA000026684A /* Debug */,
+				B3F1313E1871AA000026684A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39D8712186F02C3000F3046 /* Project object */;
+}

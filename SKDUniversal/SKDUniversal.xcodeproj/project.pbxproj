@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B363D06D188E663B00541108 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = B363D06A188E663B00541108 /* Resources */; };
+		B363D06E188E663B00541108 /* Atlases in Resources */ = {isa = PBXBuildFile; fileRef = B363D06B188E663B00541108 /* Atlases */; };
+		B363D06F188E663B00541108 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = B363D06C188E663B00541108 /* Textures */; };
+		B363D074188E666200541108 /* skdGameObjects.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D071188E666200541108 /* skdGameObjects.inc */; };
+		B363D075188E666200541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D072188E666200541108 /* skdActions.inc */; };
+		B363D076188E666200541108 /* skdScenes.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D073188E666200541108 /* skdScenes.inc */; };
+		B363D07B188E667800541108 /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B363D077188E667800541108 /* skdParallaxNode.m */; };
+		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
+		B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */; };
+		B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */; };
+		B37643CA1870773400E2E9C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643C71870773400E2E9C1 /* Default-568h@2x.png */; };
+		B38B5CEB18718ED500D7CF3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B38B5CE718718ED500D7CF3C /* Default.png */; };
+		B38B5CEC18718ED500D7CF3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38B5CE818718ED500D7CF3C /* Default@2x.png */; };
+		B39D871E186F02C3000F3046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D871D186F02C3000F3046 /* Foundation.framework */; };
+		B39D8720186F02C3000F3046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D871F186F02C3000F3046 /* CoreGraphics.framework */; };
+		B39D8722186F02C3000F3046 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D8721186F02C3000F3046 /* UIKit.framework */; };
+		B39D8724186F02C3000F3046 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D8723186F02C3000F3046 /* SpriteKit.framework */; };
+		B39D872A186F02C3000F3046 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B39D8728186F02C3000F3046 /* InfoPlist.strings */; };
+		B39D872C186F02C3000F3046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D872B186F02C3000F3046 /* main.m */; };
+		B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D872F186F02C3000F3046 /* skdAppDelegate.m */; };
+		B39D8739186F02C3000F3046 /* skdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D8738186F02C3000F3046 /* skdViewController.m */; };
+		B39D873E186F02C3000F3046 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B39D873D186F02C3000F3046 /* Spaceship.png */; };
+		B39D8740186F02C3000F3046 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39D873F186F02C3000F3046 /* Images.xcassets */; };
+		B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D875D186F03FC000F3046 /* skdNodeLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B363D06A188E663B00541108 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = GeneratedAssets/Resources; sourceTree = "<group>"; };
+		B363D06B188E663B00541108 /* Atlases */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Atlases; path = GeneratedAssets/Atlases; sourceTree = "<group>"; };
+		B363D06C188E663B00541108 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = GeneratedAssets/Textures; sourceTree = "<group>"; };
+		B363D071188E666200541108 /* skdGameObjects.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdGameObjects.inc; path = GeneratedFiles/skdGameObjects.inc; sourceTree = "<group>"; };
+		B363D072188E666200541108 /* skdActions.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdActions.inc; path = GeneratedFiles/skdActions.inc; sourceTree = "<group>"; };
+		B363D073188E666200541108 /* skdScenes.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdScenes.inc; path = GeneratedFiles/skdScenes.inc; sourceTree = "<group>"; };
+		B363D077188E667800541108 /* skdParallaxNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdParallaxNode.m; path = SKDCommon/skdParallaxNode.m; sourceTree = "<group>"; };
+		B363D078188E667800541108 /* skdParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdParallaxNode.h; path = SKDCommon/skdParallaxNode.h; sourceTree = "<group>"; };
+		B363D079188E667800541108 /* skdNodeLibraryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdNodeLibraryDelegate.h; path = SKDCommon/skdNodeLibraryDelegate.h; sourceTree = "<group>"; };
+		B363D07A188E667800541108 /* skdNodeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdNodeDelegate.h; path = SKDCommon/skdNodeDelegate.h; sourceTree = "<group>"; };
+		B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		B37643C71870773400E2E9C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B38B5CE718718ED500D7CF3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B38B5CE818718ED500D7CF3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B39D871A186F02C3000F3046 /* SKD-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKD-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39D871D186F02C3000F3046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B39D871F186F02C3000F3046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B39D8721186F02C3000F3046 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B39D8723186F02C3000F3046 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B39D8727186F02C3000F3046 /* SKD-IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKD-IOS-Info.plist"; sourceTree = "<group>"; };
+		B39D8729186F02C3000F3046 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B39D872B186F02C3000F3046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B39D872D186F02C3000F3046 /* SKD-IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKD-IOS-Prefix.pch"; sourceTree = "<group>"; };
+		B39D872E186F02C3000F3046 /* skdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skdAppDelegate.h; sourceTree = "<group>"; };
+		B39D872F186F02C3000F3046 /* skdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skdAppDelegate.m; sourceTree = "<group>"; };
+		B39D8737186F02C3000F3046 /* skdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skdViewController.h; sourceTree = "<group>"; };
+		B39D8738186F02C3000F3046 /* skdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skdViewController.m; sourceTree = "<group>"; };
+		B39D873D186F02C3000F3046 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B39D873F186F02C3000F3046 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B39D8746186F02C3000F3046 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B39D875C186F03FC000F3046 /* skdNodeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdNodeLibrary.h; path = GeneratedFiles/skdNodeLibrary.h; sourceTree = "<group>"; };
+		B39D875D186F03FC000F3046 /* skdNodeLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdNodeLibrary.m; path = GeneratedFiles/skdNodeLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39D8717186F02C3000F3046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39D8720186F02C3000F3046 /* CoreGraphics.framework in Frameworks */,
+				B39D8722186F02C3000F3046 /* UIKit.framework in Frameworks */,
+				B39D8724186F02C3000F3046 /* SpriteKit.framework in Frameworks */,
+				B39D871E186F02C3000F3046 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B363D069188E661900541108 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B363D06A188E663B00541108 /* Resources */,
+				B363D06B188E663B00541108 /* Atlases */,
+				B363D06C188E663B00541108 /* Textures */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		B363D070188E664A00541108 /* SKDCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B363D077188E667800541108 /* skdParallaxNode.m */,
+				B363D078188E667800541108 /* skdParallaxNode.h */,
+				B363D079188E667800541108 /* skdNodeLibraryDelegate.h */,
+				B363D07A188E667800541108 /* skdNodeDelegate.h */,
+			);
+			name = SKDCommon;
+			sourceTree = "<group>";
+		};
+		B39D8711186F02C3000F3046 = {
+			isa = PBXGroup;
+			children = (
+				B363D069188E661900541108 /* Assets */,
+				B363D070188E664A00541108 /* SKDCommon */,
+				B39D875F186F0402000F3046 /* SKD Generated */,
+				B39D8725186F02C3000F3046 /* SKD-IOS */,
+				B39D871C186F02C3000F3046 /* Frameworks */,
+				B39D871B186F02C3000F3046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B39D871B186F02C3000F3046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39D871A186F02C3000F3046 /* SKD-IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39D871C186F02C3000F3046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39D871D186F02C3000F3046 /* Foundation.framework */,
+				B39D871F186F02C3000F3046 /* CoreGraphics.framework */,
+				B39D8721186F02C3000F3046 /* UIKit.framework */,
+				B39D8723186F02C3000F3046 /* SpriteKit.framework */,
+				B39D8746186F02C3000F3046 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B39D8725186F02C3000F3046 /* SKD-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */,
+				B39D872E186F02C3000F3046 /* skdAppDelegate.h */,
+				B39D872F186F02C3000F3046 /* skdAppDelegate.m */,
+				B39D8737186F02C3000F3046 /* skdViewController.h */,
+				B39D8738186F02C3000F3046 /* skdViewController.m */,
+				B39D873D186F02C3000F3046 /* Spaceship.png */,
+				B39D873F186F02C3000F3046 /* Images.xcassets */,
+				B39D8726186F02C3000F3046 /* Supporting Files */,
+			);
+			path = "SKD-IOS";
+			sourceTree = "<group>";
+		};
+		B39D8726186F02C3000F3046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38B5CE718718ED500D7CF3C /* Default.png */,
+				B38B5CE818718ED500D7CF3C /* Default@2x.png */,
+				B37643C71870773400E2E9C1 /* Default-568h@2x.png */,
+				B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */,
+				B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */,
+				B39D8727186F02C3000F3046 /* SKD-IOS-Info.plist */,
+				B39D8728186F02C3000F3046 /* InfoPlist.strings */,
+				B39D872B186F02C3000F3046 /* main.m */,
+				B39D872D186F02C3000F3046 /* SKD-IOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B39D875F186F0402000F3046 /* SKD Generated */ = {
+			isa = PBXGroup;
+			children = (
+				B363D071188E666200541108 /* skdGameObjects.inc */,
+				B363D072188E666200541108 /* skdActions.inc */,
+				B363D073188E666200541108 /* skdScenes.inc */,
+				B39D875C186F03FC000F3046 /* skdNodeLibrary.h */,
+				B39D875D186F03FC000F3046 /* skdNodeLibrary.m */,
+			);
+			name = "SKD Generated";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39D8719186F02C3000F3046 /* SKD-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39D8756186F02C3000F3046 /* Build configuration list for PBXNativeTarget "SKD-IOS" */;
+			buildPhases = (
+				B39D8716186F02C3000F3046 /* Sources */,
+				B39D8717186F02C3000F3046 /* Frameworks */,
+				B39D8718186F02C3000F3046 /* Resources */,
+				B363D07C188E676100541108 /* ShellScript */,
+				B363D07D188E676400541108 /* ShellScript */,
+				B363D07E188E676900541108 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKD-IOS";
+			productName = "SKD-IOS";
+			productReference = B39D871A186F02C3000F3046 /* SKD-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39D8712186F02C3000F3046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = skd;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Developer;
+			};
+			buildConfigurationList = B39D8715186F02C3000F3046 /* Build configuration list for PBXProject "SKDUniversal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B39D8711186F02C3000F3046;
+			productRefGroup = B39D871B186F02C3000F3046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39D8719186F02C3000F3046 /* SKD-IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39D8718186F02C3000F3046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B363D06F188E663B00541108 /* Textures in Resources */,
+				B37643CA1870773400E2E9C1 /* Default-568h@2x.png in Resources */,
+				B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */,
+				B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */,
+				B39D873E186F02C3000F3046 /* Spaceship.png in Resources */,
+				B363D06D188E663B00541108 /* Resources in Resources */,
+				B38B5CEB18718ED500D7CF3C /* Default.png in Resources */,
+				B39D8740186F02C3000F3046 /* Images.xcassets in Resources */,
+				B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */,
+				B38B5CEC18718ED500D7CF3C /* Default@2x.png in Resources */,
+				B363D06E188E663B00541108 /* Atlases in Resources */,
+				B39D872A186F02C3000F3046 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B363D07C188E676100541108 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/Textures\" \\\n-type f -not -name \".*\" \\\n-not -name \"`basename ${INFOPLIST_FILE}`\" \\\n| xargs -t -I {} \\\ncp {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B363D07D188E676400541108 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/Atlases\" -type d -name \"*.atlas\" \\\n| xargs -t -I {} \\\n${DEVELOPER_TOOLS_DIR}/../usr/bin/TextureAtlas {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+		B363D07E188E676900541108 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find -L \"${SRCROOT}/GeneratedAssets/Resources\" \\\n-type f -not -name \".*\" \\\n-not -name \"`basename ${INFOPLIST_FILE}`\" \\\n| xargs -t -I {} \\\ncp {} ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39D8716186F02C3000F3046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B363D074188E666200541108 /* skdGameObjects.inc in Sources */,
+				B363D07B188E667800541108 /* skdParallaxNode.m in Sources */,
+				B39D872C186F02C3000F3046 /* main.m in Sources */,
+				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
+				B363D076188E666200541108 /* skdScenes.inc in Sources */,
+				B363D075188E666200541108 /* skdActions.inc in Sources */,
+				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,
+				B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39D8728186F02C3000F3046 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39D8729186F02C3000F3046 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39D8754186F02C3000F3046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B39D8755186F02C3000F3046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B39D8757186F02C3000F3046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKD-IOS/SKD-IOS-Prefix.pch";
+				INFOPLIST_FILE = "SKD-IOS/SKD-IOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B39D8758186F02C3000F3046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKD-IOS/SKD-IOS-Prefix.pch";
+				INFOPLIST_FILE = "SKD-IOS/SKD-IOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39D8715186F02C3000F3046 /* Build configuration list for PBXProject "SKDUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39D8754186F02C3000F3046 /* Debug */,
+				B39D8755186F02C3000F3046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39D8756186F02C3000F3046 /* Build configuration list for PBXNativeTarget "SKD-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39D8757186F02C3000F3046 /* Debug */,
+				B39D8758186F02C3000F3046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39D8712186F02C3000F3046 /* Project object */;
+}
