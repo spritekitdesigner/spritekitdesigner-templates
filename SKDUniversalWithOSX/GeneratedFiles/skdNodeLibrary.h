@@ -20,7 +20,6 @@
 @property BOOL isIPad;
 @property BOOL isIPadHD;
 @property BOOL isOSX;
-@property NSString* platformPrefix;
 @property NSString* positionPrefix;
 @property NSDictionary* nodePositions;
 @property id<skdNodeLibraryDelegate>delegate;
