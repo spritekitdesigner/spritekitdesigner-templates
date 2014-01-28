@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import "skdParallaxNode.h"
 
-//#define SKD_UNIVERSAL_BUILD 1
+#import "skdDefines.h"
 
 #pragma mark -
 #pragma mark Helper Functions
