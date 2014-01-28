@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B363D06D188E663B00541108 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = B363D06A188E663B00541108 /* Resources */; };
-		B363D06E188E663B00541108 /* Atlases in Resources */ = {isa = PBXBuildFile; fileRef = B363D06B188E663B00541108 /* Atlases */; };
-		B363D06F188E663B00541108 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = B363D06C188E663B00541108 /* Textures */; };
 		B363D07B188E667800541108 /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B363D077188E667800541108 /* skdParallaxNode.m */; };
 		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
 		B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */; };
@@ -236,17 +233,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B363D06F188E663B00541108 /* Textures in Resources */,
 				B37643CA1870773400E2E9C1 /* Default-568h@2x.png in Resources */,
 				B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */,
 				B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */,
 				B39D873E186F02C3000F3046 /* Spaceship.png in Resources */,
-				B363D06D188E663B00541108 /* Resources in Resources */,
 				B38B5CEB18718ED500D7CF3C /* Default.png in Resources */,
 				B39D8740186F02C3000F3046 /* Images.xcassets in Resources */,
 				B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */,
 				B38B5CEC18718ED500D7CF3C /* Default@2x.png in Resources */,
-				B363D06E188E663B00541108 /* Atlases in Resources */,
 				B39D872A186F02C3000F3046 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
