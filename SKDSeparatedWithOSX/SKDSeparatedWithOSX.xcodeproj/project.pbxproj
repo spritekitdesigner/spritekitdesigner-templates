@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B363D051188E5FC900541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D050188E5FC900541108 /* skdActions.inc */; };
-		B363D052188E5FC900541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D050188E5FC900541108 /* skdActions.inc */; };
 		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
 		B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */; };
 		B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */; };
@@ -50,6 +48,7 @@
 		B3816F521876E9A00063FAD8 /* skdGameObjects.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdGameObjects.inc; path = GeneratedFiles/skdGameObjects.inc; sourceTree = "<group>"; };
 		B38B5CE718718ED500D7CF3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B38B5CE818718ED500D7CF3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3935CAA1897CAED0036C8DB /* skdDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = skdDefines.h; path = GeneratedFiles/skdDefines.h; sourceTree = "<group>"; };
 		B39D871A186F02C3000F3046 /* SKD-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKD-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39D871D186F02C3000F3046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B39D871F186F02C3000F3046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -189,6 +188,7 @@
 		B39D875F186F0402000F3046 /* SKD Generated */ = {
 			isa = PBXGroup;
 			children = (
+				B3935CAA1897CAED0036C8DB /* skdDefines.h */,
 				B363D050188E5FC900541108 /* skdActions.inc */,
 				B39D875C186F03FC000F3046 /* skdNodeLibrary.h */,
 				B39D875D186F03FC000F3046 /* skdNodeLibrary.m */,
@@ -447,7 +447,6 @@
 				B3DDDFC4187983F200A8BFBC /* skdParallaxNode.m in Sources */,
 				B39D872C186F02C3000F3046 /* main.m in Sources */,
 				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
-				B363D051188E5FC900541108 /* skdActions.inc in Sources */,
 				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,
 				B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */,
 			);
@@ -459,7 +458,6 @@
 			files = (
 				B3F131471871AB190026684A /* skdNodeLibrary.m in Sources */,
 				B3DDDFC5187983F200A8BFBC /* skdParallaxNode.m in Sources */,
-				B363D052188E5FC900541108 /* skdActions.inc in Sources */,
 				B3F131261871A9FF0026684A /* skdAppDelegate.m in Sources */,
 				B3F1311B1871A9FF0026684A /* main.m in Sources */,
 			);

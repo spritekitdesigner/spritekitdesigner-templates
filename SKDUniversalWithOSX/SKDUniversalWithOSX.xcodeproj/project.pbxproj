@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		B363D08A188E686000541108 /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B363D086188E686000541108 /* skdParallaxNode.m */; };
 		B363D08B188E686000541108 /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B363D086188E686000541108 /* skdParallaxNode.m */; };
-		B363D08F188E686E00541108 /* skdGameObjects.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D08C188E686E00541108 /* skdGameObjects.inc */; };
-		B363D090188E686E00541108 /* skdGameObjects.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D08C188E686E00541108 /* skdGameObjects.inc */; };
-		B363D091188E686E00541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D08D188E686E00541108 /* skdActions.inc */; };
-		B363D092188E686E00541108 /* skdActions.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D08D188E686E00541108 /* skdActions.inc */; };
-		B363D093188E686E00541108 /* skdScenes.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D08E188E686E00541108 /* skdScenes.inc */; };
-		B363D094188E686E00541108 /* skdScenes.inc in Sources */ = {isa = PBXBuildFile; fileRef = B363D08E188E686E00541108 /* skdScenes.inc */; };
 		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
 		B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */; };
 		B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */; };
@@ -76,6 +70,7 @@
 		B38B5D0A187195FE00D7CF3C /* skdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skdAppDelegate.m; sourceTree = "<group>"; };
 		B38B5D0C187195FE00D7CF3C /* skdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skdAppDelegate.h; sourceTree = "<group>"; };
 		B38B5D0F187195FE00D7CF3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3935CAC1897CB650036C8DB /* skdDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = skdDefines.h; path = GeneratedFiles/skdDefines.h; sourceTree = "<group>"; };
 		B39D871A186F02C3000F3046 /* SKD-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKD-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39D871D186F02C3000F3046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B39D871F186F02C3000F3046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -246,6 +241,7 @@
 		B39D875F186F0402000F3046 /* SKD Generated */ = {
 			isa = PBXGroup;
 			children = (
+				B3935CAC1897CB650036C8DB /* skdDefines.h */,
 				B363D08C188E686E00541108 /* skdGameObjects.inc */,
 				B363D08D188E686E00541108 /* skdActions.inc */,
 				B363D08E188E686E00541108 /* skdScenes.inc */,
@@ -442,11 +438,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B363D090188E686E00541108 /* skdGameObjects.inc in Sources */,
 				B38B5D2C18719B4E00D7CF3C /* skdNodeLibrary.m in Sources */,
 				B363D08B188E686000541108 /* skdParallaxNode.m in Sources */,
-				B363D094188E686E00541108 /* skdScenes.inc in Sources */,
-				B363D092188E686E00541108 /* skdActions.inc in Sources */,
 				B38B5D0B187195FE00D7CF3C /* skdAppDelegate.m in Sources */,
 				B38B5D00187195FE00D7CF3C /* main.m in Sources */,
 			);
@@ -456,14 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B363D093188E686E00541108 /* skdScenes.inc in Sources */,
-				B363D08F188E686E00541108 /* skdGameObjects.inc in Sources */,
 				B363D08A188E686000541108 /* skdParallaxNode.m in Sources */,
 				B39D872C186F02C3000F3046 /* main.m in Sources */,
 				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
 				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,
 				B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */,
-				B363D091188E686E00541108 /* skdActions.inc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
