@@ -14,6 +14,7 @@
 		B37643CA1870773400E2E9C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643C71870773400E2E9C1 /* Default-568h@2x.png */; };
 		B38B5CEB18718ED500D7CF3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B38B5CE718718ED500D7CF3C /* Default.png */; };
 		B38B5CEC18718ED500D7CF3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38B5CE818718ED500D7CF3C /* Default@2x.png */; };
+		B3993EB0189AA46400DC3F91 /* skdTiledBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B3993EAE189AA46400DC3F91 /* skdTiledBackground.m */; };
 		B39D871E186F02C3000F3046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D871D186F02C3000F3046 /* Foundation.framework */; };
 		B39D8720186F02C3000F3046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D871F186F02C3000F3046 /* CoreGraphics.framework */; };
 		B39D8722186F02C3000F3046 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D8721186F02C3000F3046 /* UIKit.framework */; };
@@ -46,6 +47,8 @@
 		B38B5CE718718ED500D7CF3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B38B5CE818718ED500D7CF3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B3935CA91897CA940036C8DB /* skdDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = skdDefines.h; path = GeneratedFiles/skdDefines.h; sourceTree = "<group>"; };
+		B3993EAE189AA46400DC3F91 /* skdTiledBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdTiledBackground.m; path = SKDCommon/skdTiledBackground.m; sourceTree = "<group>"; };
+		B3993EAF189AA46400DC3F91 /* skdTiledBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdTiledBackground.h; path = SKDCommon/skdTiledBackground.h; sourceTree = "<group>"; };
 		B39D871A186F02C3000F3046 /* SKD-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKD-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39D871D186F02C3000F3046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B39D871F186F02C3000F3046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 		B363D060188E64FC00541108 /* SKDCommon */ = {
 			isa = PBXGroup;
 			children = (
+				B3993EAE189AA46400DC3F91 /* skdTiledBackground.m */,
+				B3993EAF189AA46400DC3F91 /* skdTiledBackground.h */,
 				B363D061188E652300541108 /* skdParallaxNode.m */,
 				B363D062188E652300541108 /* skdParallaxNode.h */,
 				B363D063188E652300541108 /* skdNodeLibraryDelegate.h */,
@@ -299,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B363D065188E652300541108 /* skdParallaxNode.m in Sources */,
+				B3993EB0189AA46400DC3F91 /* skdTiledBackground.m in Sources */,
 				B39D872C186F02C3000F3046 /* main.m in Sources */,
 				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
 				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,

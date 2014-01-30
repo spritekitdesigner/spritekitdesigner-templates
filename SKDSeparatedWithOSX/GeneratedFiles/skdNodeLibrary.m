@@ -9,6 +9,7 @@
 #import "skdNodeLibrary.h"
 #import <objc/runtime.h>
 #import "skdParallaxNode.h"
+#include "skdTiledBackground.h"
 
 #import "skdDefines.h"
 
@@ -42,37 +43,39 @@ NSString * NSStringFromCGPoint(CGPoint point)
 @implementation skdNodeLibrary(Private)
 - (void) setupPrefixes
 {
-	if(self.isOSX) {
-		self.positionPrefix = @"OSX";
-	}
+	self.platformPrefix = @"";
+	self.isUniversal = false;
 #if defined(SKD_UNIVERSAL_BUILD)
 	self.positionPrefix = @"iOSUniversal";
+	self.isUniversal = true;
 #else
 	if(self.isIPhone4) {
+		self.platformPrefix = @"";
 		self.positionPrefix = @"iPhone4";
 	} else if(self.isIPhone35) {
+		self.platformPrefix = @"";
 		self.positionPrefix = @"iPhone35";
 	} else if(self.isIPad) {
+		self.platformPrefix = @"";
 		self.positionPrefix = @"iPad";
 	} else if(self.isIPadHD) {
+		self.platformPrefix = @"";
 		self.positionPrefix = @"iPad";
 	}
 #endif
+	if(self.isOSX) {
+		self.platformPrefix = @"";
+		self.positionPrefix = @"OSX";
+	}
 }
 
 - (SKTexture*) textureWithName:(NSString*)name
 {
 	SKTexture* ret = NULL;
-	NSArray *listItems = [name componentsSeparatedByString:@"/"];
-	if(listItems.count == 2) {
-		NSString* atlasName = [listItems objectAtIndex:0];
-		NSString* textureName = [listItems objectAtIndex:1];
-		SKTextureAtlas* atlas = [SKTextureAtlas atlasNamed:atlasName];
-		ret = [atlas textureNamed:textureName];
-	} else {
-		NSString* imageName = name;
-		ret = [SKTexture textureWithImageNamed:imageName];
-	}
+	NSString* imageName = [NSString stringWithFormat:@"%@%@",name,self.platformPrefix];
+	
+	ret = [SKTexture textureWithImageNamed:imageName];
+	NSLog(@"%@: %fx%f", name, ret.size.width, ret.size.height);
 	return ret;
 }
 
@@ -134,7 +137,14 @@ NSString * NSStringFromCGPoint(CGPoint point)
 {
 	SKScene* ret = NULL;
 #pragma mark Begin Scene Creation Code
-	
+//	CGSize size = CGSizeMake(w, h);
+//	if(self.isOSX) {
+//		
+//	} else if(self.isIPhone) {
+//		
+//	} else if(self.isIPad) {
+//		
+//	}
 #include "skdScenes.inc"
 	
 #pragma mark End Scene Creation Code
