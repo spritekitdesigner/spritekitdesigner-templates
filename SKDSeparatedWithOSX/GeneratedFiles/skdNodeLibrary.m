@@ -72,12 +72,19 @@ NSString * NSStringFromCGPoint(CGPoint point)
 - (SKTexture*) textureWithName:(NSString*)name
 {
 	SKTexture* ret = NULL;
-	NSString* imageName = [NSString stringWithFormat:@"%@%@",name,self.platformPrefix];
-	
-	ret = [SKTexture textureWithImageNamed:imageName];
-	NSLog(@"%@: %fx%f", name, ret.size.width, ret.size.height);
+	NSArray *listItems = [name componentsSeparatedByString:@"/"];
+	if(listItems.count == 2) {
+		NSString* atlasName = [listItems objectAtIndex:0];
+		NSString* textureName = [listItems objectAtIndex:1];
+		SKTextureAtlas* atlas = [SKTextureAtlas atlasNamed:atlasName];
+		ret = [atlas textureNamed:textureName];
+	} else {
+		NSString* imageName = name;
+		ret = [SKTexture textureWithImageNamed:imageName];
+	}
 	return ret;
 }
+
 
 - (CGPoint) nodePositionByName:(NSString*)name
 {

@@ -9,6 +9,15 @@
 #import "skdParallaxNode.h"
 
 @implementation skdParallaxNode
+- (id) init
+{
+	self = [super init];
+	if(self) {
+		self.parallaxOffset = 75;
+	}
+	return self;
+}
+
 - (id) initWithParallaxOffset:(float)po
 {
 	self = [super init];
