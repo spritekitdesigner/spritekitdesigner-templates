@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 #import "skdParallaxNode.h"
 #include "skdTiledBackground.h"
+#import "skdAnimatedNode.h"
 
 #import "skdDefines.h"
 
