@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B33D994618B4DFE800E77295 /* skdAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D994418B4DFE800E77295 /* skdAnimatedNode.m */; };
+		B33D994718B4DFE800E77295 /* skdAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D994418B4DFE800E77295 /* skdAnimatedNode.m */; };
 		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
 		B37643BE187071E900E2E9C1 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */; };
 		B37643C2187072C900E2E9C1 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37643C1187072C900E2E9C1 /* iPhoneStoryboard.storyboard */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		B30114A01876D3AD005DAD57 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = GeneratedAssets/Textures; sourceTree = "<group>"; };
+		B33D994418B4DFE800E77295 /* skdAnimatedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdAnimatedNode.m; path = SKDCommon/skdAnimatedNode.m; sourceTree = "<group>"; };
+		B33D994518B4DFE800E77295 /* skdAnimatedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdAnimatedNode.h; path = SKDCommon/skdAnimatedNode.h; sourceTree = "<group>"; };
 		B363D050188E5FC900541108 /* skdActions.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = skdActions.inc; path = GeneratedFiles/skdActions.inc; sourceTree = "<group>"; };
 		B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		B37643BA187071E900E2E9C1 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
@@ -239,6 +243,8 @@
 		B3F131431871AAA40026684A /* SKDCommon */ = {
 			isa = PBXGroup;
 			children = (
+				B33D994418B4DFE800E77295 /* skdAnimatedNode.m */,
+				B33D994518B4DFE800E77295 /* skdAnimatedNode.h */,
 				B3993EB1189AA5D600DC3F91 /* skdTiledBackground.m */,
 				B3993EB2189AA5D600DC3F91 /* skdTiledBackground.h */,
 				B3DDDFC61879843200A8BFBC /* skdNodeDelegate.h */,
@@ -454,6 +460,7 @@
 				B3993EB3189AA5D600DC3F91 /* skdTiledBackground.m in Sources */,
 				B39D872C186F02C3000F3046 /* main.m in Sources */,
 				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
+				B33D994618B4DFE800E77295 /* skdAnimatedNode.m in Sources */,
 				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,
 				B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */,
 			);
@@ -464,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F131471871AB190026684A /* skdNodeLibrary.m in Sources */,
+				B33D994718B4DFE800E77295 /* skdAnimatedNode.m in Sources */,
 				B3DDDFC5187983F200A8BFBC /* skdParallaxNode.m in Sources */,
 				B3F131261871A9FF0026684A /* skdAppDelegate.m in Sources */,
 				B3993EB4189AA5D600DC3F91 /* skdTiledBackground.m in Sources */,

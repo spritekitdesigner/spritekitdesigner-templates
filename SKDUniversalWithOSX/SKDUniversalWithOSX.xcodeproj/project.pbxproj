@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B33D994D18B4E03400E77295 /* skdAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D994B18B4E03400E77295 /* skdAnimatedNode.m */; };
+		B33D994E18B4E03400E77295 /* skdAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D994B18B4E03400E77295 /* skdAnimatedNode.m */; };
 		B363D08A188E686000541108 /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B363D086188E686000541108 /* skdParallaxNode.m */; };
 		B363D08B188E686000541108 /* skdParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B363D086188E686000541108 /* skdParallaxNode.m */; };
 		B37643BD187071E900E2E9C1 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B37643B9187071E900E2E9C1 /* Default-Portrait~ipad.png */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B33D994B18B4E03400E77295 /* skdAnimatedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = skdAnimatedNode.m; path = SKDCommon/skdAnimatedNode.m; sourceTree = "<group>"; };
+		B33D994C18B4E03400E77295 /* skdAnimatedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = skdAnimatedNode.h; path = SKDCommon/skdAnimatedNode.h; sourceTree = "<group>"; };
 		B363D080188E685000541108 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = GeneratedAssets/Resources; sourceTree = "<group>"; };
 		B363D081188E685000541108 /* ResourcesOSX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ResourcesOSX; path = GeneratedAssets/ResourcesOSX; sourceTree = "<group>"; };
 		B363D082188E685000541108 /* Atlases */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Atlases; path = GeneratedAssets/Atlases; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 		B38B5D281871963100D7CF3C /* SKDCommon */ = {
 			isa = PBXGroup;
 			children = (
+				B33D994B18B4E03400E77295 /* skdAnimatedNode.m */,
+				B33D994C18B4E03400E77295 /* skdAnimatedNode.h */,
 				B3993EB8189AA64300DC3F91 /* skdTiledBackground.m */,
 				B3993EB9189AA64300DC3F91 /* skdTiledBackground.h */,
 				B363D086188E686000541108 /* skdParallaxNode.m */,
@@ -445,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38B5D2C18719B4E00D7CF3C /* skdNodeLibrary.m in Sources */,
+				B33D994E18B4E03400E77295 /* skdAnimatedNode.m in Sources */,
 				B363D08B188E686000541108 /* skdParallaxNode.m in Sources */,
 				B38B5D0B187195FE00D7CF3C /* skdAppDelegate.m in Sources */,
 				B3993EBB189AA64300DC3F91 /* skdTiledBackground.m in Sources */,
@@ -460,6 +467,7 @@
 				B3993EBA189AA64300DC3F91 /* skdTiledBackground.m in Sources */,
 				B39D872C186F02C3000F3046 /* main.m in Sources */,
 				B39D875E186F03FC000F3046 /* skdNodeLibrary.m in Sources */,
+				B33D994D18B4E03400E77295 /* skdAnimatedNode.m in Sources */,
 				B39D8739186F02C3000F3046 /* skdViewController.m in Sources */,
 				B39D8730186F02C3000F3046 /* skdAppDelegate.m in Sources */,
 			);
