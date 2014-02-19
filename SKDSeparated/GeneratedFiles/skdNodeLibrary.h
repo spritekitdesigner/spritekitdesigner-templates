@@ -24,13 +24,14 @@
 @property NSString* platformPrefix;
 @property NSString* positionPrefix;
 @property NSDictionary* nodePositions;
+@property NSDictionary* keyframePositions;
 @property id<skdNodeLibraryDelegate>delegate;
 
 - (SKScene*) createSceneByName:(NSString *)name withSize:(CGSize) size andDelegate:(id<skdNodeDelegate>)delegate;
 - (SKScene*) createSceneByName:(NSString *)name andDelegate:(id<skdNodeDelegate>)delegate;
 - (SKNode*) createGameObjectByName:(NSString*)name;
 - (SKNode*) createGameObjectByName:(NSString*)name andDelegate:(id<skdNodeDelegate>)delegate;
-- (SKAction*) createActionForNode:(SKNode *) node byName:(NSString*)name;
+- (SKAction*) createActionNamed:(NSString*)actionName;
 @end
 
 #pragma mark -
