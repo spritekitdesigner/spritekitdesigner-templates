@@ -38,6 +38,8 @@ NSString * NSStringFromCGPoint(CGPoint point)
 - (void) setupPrefixes;
 - (SKTexture*) textureWithName:(NSString*)name;
 - (CGPoint) nodePositionByName:(NSString*)name;
+- (CGPoint) keyframePositionAsCGPointByGUID:(NSString*)guid;
+- (CGVector) keyframePositionAsCGVectorByGUID:(NSString*)guid;
 @end
 
 @implementation skdNodeLibrary(Private)
@@ -85,6 +87,19 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	return ret;
 }
 
+- (CGPoint) keyframePositionAsCGPointByGUID:(NSString*)guid
+{
+	NSString* key = [NSString stringWithFormat:@"%@.%@",guid,self.positionPrefix];
+	NSString* pos = [self.keyframePositions valueForKeyPath:key];
+	CGPoint pt = CGPointFromString(pos);
+	return pt;
+}
+
+- (CGVector) keyframePositionAsCGVectorByGUID:(NSString*)guid
+{
+	CGPoint pt = [self keyframePositionAsCGPointByGUID:guid];
+	return CGVectorMake(pt.x, pt.y);
+}
 
 - (CGPoint) nodePositionByName:(NSString*)name
 {
@@ -131,6 +146,10 @@ NSString * NSStringFromCGPoint(CGPoint point)
 		if ((node_position_path = [thisBundle pathForResource:@"skd_node_positions" ofType:@"plist"]))  {
 			self.nodePositions = [[NSDictionary alloc] initWithContentsOfFile:node_position_path];
 		}
+		NSString *kf_position_path = NULL;
+		if ((kf_position_path = [thisBundle pathForResource:@"skd_kf_positions" ofType:@"plist"]))  {
+			self.keyframePositions = [[NSDictionary alloc] initWithContentsOfFile:kf_position_path];
+		}
 	}
 	return self;
 }
@@ -144,16 +163,9 @@ NSString * NSStringFromCGPoint(CGPoint point)
 {
 	SKScene* ret = NULL;
 #pragma mark Begin Scene Creation Code
-//	CGSize size = CGSizeMake(w, h);
-//	if(self.isOSX) {
-//		
-//	} else if(self.isIPhone) {
-//		
-//	} else if(self.isIPad) {
-//		
-//	}
+
 #include "skdScenes.inc"
-	
+
 #pragma mark End Scene Creation Code
 	if(ret != NULL) {
 		if(self.isOSX) {
@@ -188,15 +200,14 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	return [self createGameObjectByName:name andDelegate:NULL];
 }
 
-- (SKAction*) createActionForNode:(SKNode *) node byName:(NSString*)name
+- (SKAction*) createActionNamed:(NSString*)actionName
 {
-	SKAction* ret = NULL;
 #pragma mark Begin Action Creation Code
 
 #include "skdActions.inc"
 	
 #pragma mark End Action Creation Code
-	return ret;
+	return NULL;
 }
 
 @end
@@ -265,6 +276,7 @@ objc_setAssociatedObject(self, @selector(PROPERTY_NAME) , PROPERTY_NAME , OBJC_A
 @implementation SKNode(SKD)
 ADD_DYNAMIC_PROPERTY(id<skdNodeDelegate>,delegate,setDelegate)
 ADD_OVERRIDES
+
 @end
 
 //@implementation SKScene(SKD)
