@@ -11,7 +11,7 @@
 #import "skdParallaxNode.h"
 #include "skdTiledBackground.h"
 #import "skdAnimatedNode.h"
-
+#import "skdParallaxNodeManager.h"
 #import "skdDefines.h"
 
 #pragma mark -
@@ -214,17 +214,23 @@ NSString * NSStringFromCGPoint(CGPoint point)
 @end
 
 @implementation skdScene
-- (id) initWithSize:(CGSize)size
+//- (id) initWithSize:(CGSize)size
+//{
+//	self = [super initWithSize:size];
+//	if(self) {
+//		[[skdParallaxNodeManager instance].parallaxNodes removeAllObjects];
+//	}
+//	return self;
+//}
+
+- (void)willMoveFromView:(SKView *)view
 {
-	self = [super initWithSize:size];
-	if(self) {
-		self.parallaxNodes = [NSMutableArray array];
-	}
-	return self;
+	[[skdParallaxNodeManager instance].parallaxNodes removeAllObjects];
 }
+
 - (void)didSimulatePhysics
 {
-	for(skdParallaxNode* pn in self.parallaxNodes) {
+	for(skdParallaxNode* pn in [skdParallaxNodeManager instance].parallaxNodes) {
 		[pn update];
 	}
 }

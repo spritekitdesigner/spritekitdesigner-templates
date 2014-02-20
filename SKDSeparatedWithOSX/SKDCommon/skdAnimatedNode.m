@@ -24,6 +24,7 @@
 	self = [super init];
 	if(self) {
 		_enabled = false;
+		_timePerFrame = 0.1;
 	}
 	return self;
 }
@@ -68,7 +69,7 @@
 			needToSetTexture = NO;
 		}
 	}
-	SKAction* a = [SKAction animateWithTextures:textures timePerFrame:_timePerFrame];
+	SKAction* a = [SKAction animateWithTextures:textures timePerFrame:_timePerFrame resize:YES restore:YES];
 	SKAction* r = [SKAction repeatActionForever:a];
 	self.animationAction = r;
 	if(_enabled) [self startAnimation];
