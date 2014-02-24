@@ -41,6 +41,7 @@ NSString * NSStringFromCGPoint(CGPoint point)
 - (CGPoint) nodePositionByName:(NSString*)name;
 - (CGPoint) keyframePositionAsCGPointByGUID:(NSString*)guid;
 - (CGVector) keyframePositionAsCGVectorByGUID:(NSString*)guid;
+- (void) actionFinished:(NSString *) actionName;
 @end
 
 @implementation skdNodeLibrary(Private)
@@ -186,7 +187,7 @@ NSString * NSStringFromCGPoint(CGPoint point)
 #pragma mark Begin Game Object Creation Code
 	
 #include "skdGameObjects.inc"
-	
+
 #pragma mark End Game Object Creation Code
 	
 	if(ret != NULL) {
@@ -209,6 +210,14 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	
 #pragma mark End Action Creation Code
 	return NULL;
+}
+
+- (void) actionFinished:(NSString *) actionName
+{
+	NSLog(@"%@ finished its run",actionName);
+	if ([self.delegate respondsToSelector:@selector(actionDidFinish:)]) {
+		[self.delegate actionDidFinish:actionName];
+	}
 }
 
 @end

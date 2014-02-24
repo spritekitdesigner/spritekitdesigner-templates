@@ -9,8 +9,10 @@
 #import <SpriteKit/SpriteKit.h>
 
 @protocol skdNodeLibraryDelegate <NSObject>
+@optional
 - (id) libraryWillCreateNodeNamed:(NSString*)name;
 - (id) libraryDidCreateNode:(SKNode*)node;
 - (id) libraryWillCreateTexturedNodeNamed:(NSString*)name withTexture:(SKTexture*)texture;
 //- (void) libraryDidCreateTexturedNode:(SKNode*)node withNamed:(NSString*)name;
+-(void)actionDidFinish:(NSString*)actionName;
 @end
