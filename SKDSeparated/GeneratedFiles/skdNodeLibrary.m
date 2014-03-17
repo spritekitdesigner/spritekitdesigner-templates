@@ -111,6 +111,13 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	return pt;
 }
 
+- (void) actionFinished:(NSString *) actionName
+{
+	if ([self.delegate respondsToSelector:@selector(actionDidFinish:)]) {
+		[self.delegate actionDidFinish:actionName];
+	}
+}
+
 @end
 
 #pragma mark -
@@ -210,14 +217,6 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	
 #pragma mark End Action Creation Code
 	return NULL;
-}
-
-- (void) actionFinished:(NSString *) actionName
-{
-	NSLog(@"%@ finished its run",actionName);
-	if ([self.delegate respondsToSelector:@selector(actionDidFinish:)]) {
-		[self.delegate actionDidFinish:actionName];
-	}
 }
 
 @end
