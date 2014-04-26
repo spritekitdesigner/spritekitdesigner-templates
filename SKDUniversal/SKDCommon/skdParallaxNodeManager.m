@@ -2,9 +2,6 @@
 //  skdParallaxNodeManager.m
 //  ParallaxTree
 //
-//  Created by Gyetván András on 20/02/14.
-//  Copyright (c) 2014 Developer. All rights reserved.
-//
 
 #import "skdParallaxNodeManager.h"
 

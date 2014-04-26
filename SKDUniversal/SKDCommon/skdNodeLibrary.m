@@ -2,14 +2,11 @@
 //  skdNodeLibrary.m
 //  SKDUniversal
 //
-//  Created by Gyetván András on 28/12/13.
-//  Copyright (c) 2013 Developer. All rights reserved.
-//
 
 #import "skdNodeLibrary.h"
 #import <objc/runtime.h>
 #import "skdParallaxNode.h"
-#include "skdTiledBackground.h"
+#import "skdTiledBackground.h"
 #import "skdAnimatedNode.h"
 #import "skdParallaxNodeManager.h"
 #import "skdDefines.h"
@@ -162,6 +159,10 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	}
 	return self;
 }
+- (SKScene*) createSceneByName:(NSString *)name
+{
+	return [self createSceneByName:name andDelegate:NULL];
+}
 
 - (SKScene*) createSceneByName:(NSString *)name andDelegate:(id<skdNodeDelegate>)delegate
 {
@@ -173,7 +174,7 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	SKScene* ret = NULL;
 #pragma mark Begin Scene Creation Code
 
-#include "skdScenes.inc"
+#include "../GeneratedFiles/skdScenes.inc"
 
 #pragma mark End Scene Creation Code
 	if(ret != NULL) {
@@ -193,7 +194,7 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	SKNode* ret = NULL;
 #pragma mark Begin Game Object Creation Code
 	
-#include "skdGameObjects.inc"
+#include "../GeneratedFiles/skdGameObjects.inc"
 
 #pragma mark End Game Object Creation Code
 	
@@ -209,11 +210,11 @@ NSString * NSStringFromCGPoint(CGPoint point)
 	return [self createGameObjectByName:name andDelegate:NULL];
 }
 
-- (SKAction*) createActionNamed:(NSString*)actionName
+- (SKAction*) createActionByName:(NSString*)actionName
 {
 #pragma mark Begin Action Creation Code
 
-#include "skdActions.inc"
+#include "../GeneratedFiles/skdActions.inc"
 	
 #pragma mark End Action Creation Code
 	return NULL;

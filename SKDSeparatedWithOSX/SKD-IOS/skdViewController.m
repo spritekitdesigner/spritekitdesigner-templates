@@ -2,9 +2,6 @@
 //  skdViewController.m
 //  SKDUniversal
 //
-//  Created by Gyetván András on 28/12/13.
-//  Copyright (c) 2013 Developer. All rights reserved.
-//
 
 #import "skdViewController.h"
 
