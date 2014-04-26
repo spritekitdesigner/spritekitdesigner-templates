@@ -2,9 +2,6 @@
 //  skdAppDelegate.m
 //  SKDOSX
 //
-//  Created by Gyetván András on 30/12/13.
-//  Copyright (c) 2013 Developer. All rights reserved.
-//
 
 #import "skdAppDelegate.h"
 #import "skdParallaxNode.h"

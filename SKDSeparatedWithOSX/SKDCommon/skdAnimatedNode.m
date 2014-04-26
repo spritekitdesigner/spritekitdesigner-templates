@@ -2,9 +2,6 @@
 //  skdAnimatedNode.m
 //  ParallaxTree
 //
-//  Created by Gyetván András on 19/02/14.
-//  Copyright (c) 2014 Developer. All rights reserved.
-//
 
 #import "skdAnimatedNode.h"
 

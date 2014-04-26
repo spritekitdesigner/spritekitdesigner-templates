@@ -3,9 +3,6 @@
 //  SKDOSX
 //
 
-//  Copyright (c) 2013 Developer. All rights reserved.
-//
-
 #import <Cocoa/Cocoa.h>
 #import <SpriteKit/SpriteKit.h>
 #import "skdNodeLibrary.h"

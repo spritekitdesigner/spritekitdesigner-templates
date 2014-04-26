@@ -2,8 +2,6 @@
 //  skdNodeLibrary.h
 //  SKDUniversal
 //
-//  Created by Gyetván András on 28/12/13.
-//  Copyright (c) 2013 Developer. All rights reserved.
 //
 
 #import <SpriteKit/SpriteKit.h>
@@ -27,11 +25,12 @@
 @property NSDictionary* keyframePositions;
 @property id<skdNodeLibraryDelegate>delegate;
 
-- (SKScene*) createSceneByName:(NSString *)name withSize:(CGSize) size andDelegate:(id<skdNodeDelegate>)delegate;
-- (SKScene*) createSceneByName:(NSString *)name andDelegate:(id<skdNodeDelegate>)delegate;
-- (SKNode*) createGameObjectByName:(NSString*)name;
-- (SKNode*) createGameObjectByName:(NSString*)name andDelegate:(id<skdNodeDelegate>)delegate;
-- (SKAction*) createActionNamed:(NSString*)actionName;
+- (SKScene*)  createSceneByName:(NSString *)name;
+- (SKNode*)   createGameObjectByName:(NSString*)name;
+- (SKScene*)  createSceneByName:(NSString *)name withSize:(CGSize) size andDelegate:(id<skdNodeDelegate>)delegate;
+- (SKScene*)  createSceneByName:(NSString *)name andDelegate:(id<skdNodeDelegate>)delegate;
+- (SKNode*)   createGameObjectByName:(NSString*)name andDelegate:(id<skdNodeDelegate>)delegate;
+- (SKAction*) createActionByName:(NSString*)actionName;
 @end
 
 #pragma mark -
